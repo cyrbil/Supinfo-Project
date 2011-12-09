@@ -1,0 +1,6582 @@
+# depslib dependency file v1.0
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\begin_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\close_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258246278 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_platform.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\begin_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\close_code.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_keysym.h
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1293737268 f:\supinfo\projets\donkey kong\projet c\donkey kong\constantes.h
+
+1293716933 f:\supinfo\projets\donkey kong\projet c\donkey kong\affichage.h
+
+1293734634 f:\supinfo\projets\donkey kong\projet c\donkey kong\structures.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong\personnage.h
+
+1293734071 f:\supinfo\projets\donkey kong\projet c\donkey kong\moteur.h
+
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\moteur.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\personnage.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\affichage.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293737322 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293734071 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293737031 source:f:\supinfo\projets\donkey kong\projet c\donkey kong\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293717639 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293746675 f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\constantes.h
+
+1293746468 f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\structures.h
+
+1293716933 f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\personnage.h
+
+1293746326 f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\moteur.h
+
+1293746631 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293737363 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293746543 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - copie\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+
+1293747027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293747217 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\constantes.h
+
+1293746468 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\structures.h
+
+1293716933 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\personnage.h
+
+1293747027 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\moteur.h
+
+1293747027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293747027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293747027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293747027 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.1\elements.h
+
+1293983325 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\constantes.h
+
+1293981355 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\structures.h
+
+1293910248 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\elements.h
+
+1293901248 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293976546 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293987273 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293987396 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293793439 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293803809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\constantes.h
+
+1293806102 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\structures.h
+
+1293800637 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\personnage.h
+
+1293804810 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\moteur.h
+
+1293788031 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\elements.h
+
+1293747027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293788031 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293801514 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2 - copie\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293985924 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.2\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293983325 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\constantes.h
+
+1294003500 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\structures.h
+
+1293910248 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\elements.h
+
+1294036508 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293976546 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294036832 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294036867 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294001520 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.3 - libé mem\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294050173 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\constantes.h
+
+1294082431 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\structures.h
+
+1294082647 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\elements.h
+
+1294085499 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294089569 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1293976546 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294041570 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294089848 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.4\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\constantes.h
+
+1294127062 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\structures.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\elements.h
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294139102 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\freememory.h
+
+1294139428 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.42\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\constantes.h
+
+1294127062 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\structures.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\elements.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\freememory.h
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294186945 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294139102 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294139579 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294185532 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.43\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\constantes.h
+
+1294238773 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\structures.h
+
+1294237831 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\elements.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\freememory.h
+
+1294185532 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294186945 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294139102 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294238720 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294239487 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.45 (almost) fully empty memory leaks\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\constantes.h
+
+1294238773 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\structures.h
+
+1294237831 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\elements.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\freememory.h
+
+1294252876 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294186945 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294252144 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294251890 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294252144 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\constantes.h
+
+1294238773 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\structures.h
+
+1294237831 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\affichage.h
+
+1293730118 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\personnage.h
+
+1293902520 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\moteur.h
+
+1293973821 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\elements.h
+
+1294138809 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\freememory.h
+
+1294261027 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294253558 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294186945 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294261173 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294261117 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.5 - opti img\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294138910 source:d:\projet\donkey kong - 1.51 - opti img\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 d:\projet\donkey kong - 1.51 - opti img\constantes.h
+
+1294325464 d:\projet\donkey kong - 1.51 - opti img\structures.h
+
+1294323746 d:\projet\donkey kong - 1.51 - opti img\affichage.h
+
+1293730118 d:\projet\donkey kong - 1.51 - opti img\personnage.h
+
+1294323771 d:\projet\donkey kong - 1.51 - opti img\moteur.h
+
+1293973820 d:\projet\donkey kong - 1.51 - opti img\elements.h
+
+1294138808 d:\projet\donkey kong - 1.51 - opti img\freememory.h
+
+1294261026 source:d:\projet\donkey kong - 1.51 - opti img\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294328165 source:d:\projet\donkey kong - 1.51 - opti img\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294323788 source:d:\projet\donkey kong - 1.51 - opti img\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294132308 source:d:\projet\donkey kong - 1.51 - opti img\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294324434 source:d:\projet\donkey kong - 1.51 - opti img\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294325914 source:d:\projet\donkey kong - 1.51 - opti img\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294427084 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\constantes.h
+
+1294432530 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\personnage.h
+
+1294426108 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\freememory.h
+
+1294261026 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294431446 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294427197 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+
+1294415454 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294431868 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294432406 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.52 tests sons\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+
+1294489291 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\constantes.h
+
+1294489994 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\freememory.h
+
+1294487855 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294489261 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294490079 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294488112 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\sons.h
+
+1294487998 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\sons.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294489924 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.6 sons\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294489291 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\constantes.h
+
+1294494500 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\freememory.h
+
+1294492745 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\sons.h
+
+1294487855 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494477 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494729 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494507 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494115 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.61 sons\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\constantes.h
+
+1294494500 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\freememory.h
+
+1294492745 f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\sons.h
+
+1294487855 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496330 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496397 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494477 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294498155 source:f:\supinfo\projets\donkey kong\projet c\saved\donkey kong - 1.62 sons alea\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\constantes.h
+
+1294499437 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\sons.h
+
+1294487855 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499515 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496397 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294494477 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294498155 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.62 sons alea\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\constantes.h
+
+1294499437 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\sons.h
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499515 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.63 sons alea debug\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\constantes.h
+
+1294510383 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\personnage.h
+
+1294485238 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\sons.h
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294491283 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294510564 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294509251 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\constantes.h
+
+1294512268 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\structures.h
+
+1294416069 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\affichage.h
+
+1294426033 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\personnage.h
+
+1294513035 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\sons.h
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294512717 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294513000 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294487889 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294511518 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294509251 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.64 sons alea debug - copie\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\constantes.h
+
+1294597358 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\structures.h
+
+1294588723 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\affichage.h
+
+1294588861 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\personnage.h
+
+1294588944 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\sons.h
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294597219 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588989 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588861 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294597336 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294597939 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.7 first settings\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\constantes.h
+
+1294597358 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\structures.h
+
+1294588723 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\affichage.h
+
+1294588861 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\personnage.h
+
+1294601697 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\sons.h
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294601035 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588989 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588861 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294597336 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294601145 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\constantes.h
+
+1294659638 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\structures.h
+
+1294588723 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\affichage.h
+
+1294588861 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\personnage.h
+
+1294601697 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\moteur.h
+
+1294427148 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\freememory.h
+
+1294499515 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\sons.h
+
+1294505435 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294601035 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588861 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499563 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294659647 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294659088 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294658964 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.72 settings 2 - copie\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1255908494 c:\program files (x86)\codeblocks\sdl-1.2.14\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1293987568 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\constantes.h
+
+1294659638 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\structures.h
+
+1294588722 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\affichage.h
+
+1294588860 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\personnage.h
+
+1294601696 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\moteur.h
+
+1294427148 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\elements.h
+
+1294138808 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\freememory.h
+
+1294499514 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\sons.h
+
+1294505434 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294601034 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294658964 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294659646 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294694769 source:c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294695105 c:\users\cyrbil\desktop\donkey kong - 1.8 input beta\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1294496408 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\constantes.h
+
+1294659638 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\structures.h
+
+1294588722 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\affichage.h
+
+1294588860 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\personnage.h
+
+1294601696 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\moteur.h
+
+1294427148 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\elements.h
+
+1294138808 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\freememory.h
+
+1294499514 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\sons.h
+
+1294505434 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294658964 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294659646 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294694769 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294735947 c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1294736586 source:c:\users\cyrbil\desktop\donkey kong - 1.9 - reseau added\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294496408 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\constantes.h
+
+1294659638 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\structures.h
+
+1294588722 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\affichage.h
+
+1294588860 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\personnage.h
+
+1294601696 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\moteur.h
+
+1294427148 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\elements.h
+
+1294138808 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\freememory.h
+
+1294499514 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\sons.h
+
+1294505434 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294736586 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294658964 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294659646 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294747891 source:c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294741767 c:\users\cyrbil\desktop\donkey kong - 1.91 - scores added\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1294833817 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\constantes.h
+
+1294659638 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\structures.h
+
+1294588722 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\affichage.h
+
+1294588860 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\personnage.h
+
+1294601696 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\moteur.h
+
+1294832192 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\freememory.h
+
+1294499514 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\sons.h
+
+1294505434 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294751492 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294834752 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294833901 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294834620 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294834620 f:\supinfo\projets\donkey kong\projet c\donkey kong - 1.91 - scores+param\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1294833817 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\constantes.h
+
+1295124152 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\structures.h
+
+1294588722 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\affichage.h
+
+1294588860 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\personnage.h
+
+1294601696 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\moteur.h
+
+1294832192 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\freememory.h
+
+1294499514 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\sons.h
+
+1295122737 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295124575 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295124467 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295121975 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294834620 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1295122589 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.0 - final scores+settings\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295175104 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\constantes.h
+
+1295124152 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\structures.h
+
+1294588722 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\affichage.h
+
+1294588860 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\personnage.h
+
+1294601696 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\moteur.h
+
+1294832192 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\freememory.h
+
+1294499514 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\sons.h
+
+1295122737 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295175240 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295122589 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295125042 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295174850 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294834620 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1295175104 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1293987568 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\constantes.h
+
+1295124152 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\structures.h
+
+1294588722 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\affichage.h
+
+1294588860 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\personnage.h
+
+1294601696 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\moteur.h
+
+1294832192 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\freememory.h
+
+1294499514 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\sons.h
+
+1295122737 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295175240 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295125042 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295122589 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.1 toolbar ingame + settings fullscreen\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295452399 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295454541 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\constantes.h
+
+1295452896 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\structures.h
+
+1294588722 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\affichage.h
+
+1294588860 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\personnage.h
+
+1294601696 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\moteur.h
+
+1294832192 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\elements.h
+
+1294138808 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\freememory.h
+
+1294499514 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\sons.h
+
+1295175240 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294588860 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294499562 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295454510 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295454409 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295454391 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295452228 source:f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294834620 f:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 test\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1295458110 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295458141 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\constantes.h
+
+1295456496 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\structures.h
+
+1294592322 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\affichage.h
+
+1294592460 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\personnage.h
+
+1294605296 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\moteur.h
+
+1294835792 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\elements.h
+
+1294142408 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\freememory.h
+
+1294503114 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\sons.h
+
+1295455999 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295178840 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1301331123 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294503162 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295457991 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295455828 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294838220 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1301330411 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.12 +1 tonneau +2 carapaces\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295458110 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295458141 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\constantes.h
+
+1295456496 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\structures.h
+
+1294592322 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\affichage.h
+
+1294592460 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\personnage.h
+
+1294605296 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\moteur.h
+
+1294835792 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\elements.h
+
+1294142408 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\freememory.h
+
+1294503114 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\sons.h
+
+1295455999 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295178840 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1301332812 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1301331123 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1294503162 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295457991 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1295455828 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1294838220 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.13 debug no enter while jump\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1307369449 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306937021 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\constantes.h
+
+1307368086 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\structures.h
+
+1307367181 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\affichage.h
+
+1307369621 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\personnage.h
+
+1307367343 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\moteur.h
+
+1307369764 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\elements.h
+
+1307371561 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\freememory.h
+
+1294503114 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\sons.h
+
+1306933782 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307372584 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	<curl/curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306933395 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306934585 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306933656 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306933881 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1307372214 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\reseau.h
+	<windows.h>
+	<curl/curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1306934791 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.2\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmodex/fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1306937020 c:\users\cyrbil\desktop\donkey kong - 2.2\constantes.h
+
+1307368086 c:\users\cyrbil\desktop\donkey kong - 2.2\structures.h
+
+1307367180 c:\users\cyrbil\desktop\donkey kong - 2.2\affichage.h
+
+1307369620 c:\users\cyrbil\desktop\donkey kong - 2.2\personnage.h
+
+1307367342 c:\users\cyrbil\desktop\donkey kong - 2.2\moteur.h
+
+1307369764 c:\users\cyrbil\desktop\donkey kong - 2.2\elements.h
+
+1307371560 c:\users\cyrbil\desktop\donkey kong - 2.2\freememory.h
+
+1294503114 c:\users\cyrbil\desktop\donkey kong - 2.2\sons.h
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307448760 source:c:\users\cyrbil\desktop\donkey kong - 2.2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	<curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.2\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1307452186 c:\users\cyrbil\desktop\donkey kong - 2.2\reseau.h
+	<windows.h>
+	<curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1258246278 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl_image-1.2.10\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\begin_code.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\close_code.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255908494 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\sdl_ttf-2.0.10\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\fmod\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\fmod\include\fmod_codec.h
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\fmod\include\fmod_dsp.h
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\fmod\include\fmod_memoryinfo.h
+
+1289489946 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1292422084 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\curlver.h
+
+1292422084 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\curlrules.h
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\easy.h
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\multi.h
+	"curl.h"
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.2\libs\curl-7.21.3\include\curl\typecheck-gcc.h
+
+1307443210 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\begin_code.h
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\close_code.h
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255908494 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl_ttf-2.0.10\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258246278 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\sdl_image-1.2.10\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1306942864 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\fmod\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1306942864 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\fmod\include\fmod_codec.h
+
+1306942864 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\fmod\include\fmod_dsp.h
+
+1306942864 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\fmod\include\fmod_memoryinfo.h
+
+1306937020 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\constantes.h
+
+1307368086 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\structures.h
+
+1307367180 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\affichage.h
+
+1307369620 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\personnage.h
+
+1307367342 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\moteur.h
+
+1307369764 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\elements.h
+
+1307543078 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\freememory.h
+
+1307543494 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\sons.h
+
+1307443210 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307544496 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	<curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1289489946 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1292422084 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlver.h
+
+1292422084 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1284843622 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlrules.h
+
+1284843622 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\easy.h
+
+1284843622 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\multi.h
+	"curl.h"
+
+1284843622 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\libs\curl-7.21.3\include\curl\typecheck-gcc.h
+
+1307547915 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307543952 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307443210 source:d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1307454222 d:\supinfo\projets\donkey kong\projet c\donkey kong - 2.3\reseau.h
+	<windows.h>
+	<curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.3\elements.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\begin_code.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\close_code.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255908494 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl_ttf-2.0.10\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258246278 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\sdl_image-1.2.10\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\fmod\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\fmod\include\fmod_codec.h
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\fmod\include\fmod_dsp.h
+
+1306942864 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\fmod\include\fmod_memoryinfo.h
+
+1306937020 c:\users\cyrbil\desktop\donkey kong - 2.3\constantes.h
+
+1307368086 c:\users\cyrbil\desktop\donkey kong - 2.3\structures.h
+
+1307367180 c:\users\cyrbil\desktop\donkey kong - 2.3\affichage.h
+
+1307369620 c:\users\cyrbil\desktop\donkey kong - 2.3\personnage.h
+
+1307367342 c:\users\cyrbil\desktop\donkey kong - 2.3\moteur.h
+
+1307369764 c:\users\cyrbil\desktop\donkey kong - 2.3\elements.h
+
+1307543078 c:\users\cyrbil\desktop\donkey kong - 2.3\freememory.h
+
+1307543494 c:\users\cyrbil\desktop\donkey kong - 2.3\sons.h
+
+1307443210 source:c:\users\cyrbil\desktop\donkey kong - 2.3\freememory.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307544496 source:c:\users\cyrbil\desktop\donkey kong - 2.3\main.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	<curl.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1289489946 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1292422084 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlver.h
+
+1292422084 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\curlrules.h
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\easy.h
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\multi.h
+	"curl.h"
+
+1284843622 c:\users\cyrbil\desktop\donkey kong - 2.3\libs\curl-7.21.3\include\curl\typecheck-gcc.h
+
+1307547914 source:c:\users\cyrbil\desktop\donkey kong - 2.3\moteur.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307543952 source:c:\users\cyrbil\desktop\donkey kong - 2.3\sons.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307550008 source:c:\users\cyrbil\desktop\donkey kong - 2.3\personnage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307549022 source:c:\users\cyrbil\desktop\donkey kong - 2.3\structures.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+
+1307549896 source:c:\users\cyrbil\desktop\donkey kong - 2.3\affichage.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<time.h>
+	<string.h>
+	<fmod.h>
+	"constantes.h"
+	"structures.h"
+	"affichage.h"
+	"personnage.h"
+	"moteur.h"
+	"elements.h"
+	"freeMemory.h"
+	"sons.h"
+	"reseau.h"
+
+1307454222 c:\users\cyrbil\desktop\donkey kong - 2.3\reseau.h
+	<windows.h>
+	<curl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
