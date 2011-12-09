@@ -8,6 +8,11 @@ Difficulty is progressive.
 The release is ready to run.
 
 ### Screenshots
+![alt text](https://github.com/cyrbil/Supinfo-Project/raw/master/Donkey-Kong/screenshoots/game.png)
+![alt text](https://github.com/cyrbil/Supinfo-Project/raw/master/Donkey-Kong/screenshoots/howto.png)
+![alt text](https://github.com/cyrbil/Supinfo-Project/raw/master/Donkey-Kong/screenshoots/menu.png)
+![alt text](https://github.com/cyrbil/Supinfo-Project/raw/master/Donkey-Kong/screenshoots/param.png)
+![alt text](https://github.com/cyrbil/Supinfo-Project/raw/master/Donkey-Kong/screenshoots/score.png)
 
 
 The team was: Cyril Demingeon, Maxime Steinhausser, Jean Burelier and Dorian Fleury.
