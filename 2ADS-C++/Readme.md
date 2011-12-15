@@ -19,3 +19,4 @@ It's a compiled version.
 
 
 Cyrbil
+![alt text](http://www.gravatar.com/avatar/67d04ae3dfdf060c4a2fa2dfea9b6b22.png?s=500 "Cyrbil")
