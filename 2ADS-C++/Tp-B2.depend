@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1323460530 source:c:\users\cyrbil\documents\programmation\tp-b2\main.cpp
+	<iostream>
+	<vector>
+	"include/game.h"
+
+1323453650 c:\users\cyrbil\documents\programmation\tp-b2\include\board.h
+
+1323453774 source:c:\users\cyrbil\documents\programmation\tp-b2\src\board.cpp
+	<iostream>
+	"../include/board.h"
+
+1323351605 source:c:\users\cyrbil\documents\programmation\tp-b2\src\piece.cpp
+	"../include/piece.h"
+
+1323453872 c:\users\cyrbil\documents\programmation\tp-b2\include\piece.h
+
+1323807768 source:c:\users\cyrbil\documents\programmation\tp-b2\src\player.cpp
+	"../include/player.h"
+
+1323454400 c:\users\cyrbil\documents\programmation\tp-b2\include\player.h
+	<iostream>
+	"../include/piece.h"
+	"../include/board.h"
+	"../include/people.h"
+
+1323454624 source:c:\users\cyrbil\documents\programmation\tp-b2\src\game.cpp
+	"../include/game.h"
+
+1323454558 c:\users\cyrbil\documents\programmation\tp-b2\include\game.h
+	<iostream>
+	"../include/player.h"
+
+1323454687 c:\users\cyrbil\documents\programmation\tp-b2\include\people.h
+	<iostream>
+
+1323454720 source:c:\users\cyrbil\documents\programmation\tp-b2\src\people.cpp
+	"../include/people.h"
+

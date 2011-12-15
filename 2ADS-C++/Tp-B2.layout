@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include\board.h" open="0" top="0" tabpos="2">
+		<Cursor position="34" topLine="0" />
+	</File>
+	<File name="include\game.h" open="1" top="0" tabpos="4">
+		<Cursor position="463" topLine="0" />
+	</File>
+	<File name="include\people.h" open="0" top="0" tabpos="0">
+		<Cursor position="287" topLine="0" />
+	</File>
+	<File name="include\piece.h" open="0" top="0" tabpos="4">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="include\player.h" open="0" top="0" tabpos="4">
+		<Cursor position="875" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="4396" topLine="112" />
+	</File>
+	<File name="src\board.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="2043" topLine="58" />
+	</File>
+	<File name="src\game.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="471" topLine="0" />
+	</File>
+	<File name="src\people.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="src\piece.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="92" topLine="0" />
+	</File>
+	<File name="src\player.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="448" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
