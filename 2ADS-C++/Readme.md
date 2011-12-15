@@ -1,8 +1,8 @@
 # Mini-Projet C++
 
-Ce jeu est un jeu d’encerclement aux règles très simples. Il se déroule sur un plateau rectangulaire dont le nombre de lignes est nécessairement impair et le nombre de colonnes nécessairement pair.
+Ce jeu est un jeu d'encerclement aux rÃ¨gles trÃ¨s simples. Il se dÃ©roule sur un plateau rectangulaire dont le nombre de lignes est nÃ©cessairement impair et le nombre de colonnes nÃ©cessairement pair.
 
-Deux joueurs s’affrontent, chacun possédant un pion. Au début de la partie, les pions des deux joueurs sont placés « au centre » du plateau. Les joueurs disposent également d’un nombre illimité de briques qu’ils vont placer au fur et à mesure de la partie sur les cases du plateau. Les briques des deux joueurs sont indifférenciables.
+Deux joueurs s'affrontent, chacun possÃ©dant un pion. Au dÃ©but de la partie, les pions des deux joueurs sont placÃ©s au centre du plateau. Les joueurs disposent Ã©galement d'un nombre illimitÃ© de briques qu'ils vont placer au fur et Ã  mesure de la partie sur les cases du plateau. Les briques des deux joueurs sont indiffÃ©renciables.
 
 
 ### License
@@ -16,3 +16,8 @@ Simply open project with codeBlocks.
 ### Play
 Execute bin/release/TP-B2.exe
 It's a compiled version.
+
+
+Cyrbil
+
+![alt text](http://www.gravatar.com/avatar/67d04ae3dfdf060c4a2fa2dfea9b6b22.png?s=500 "Cyrbil")
