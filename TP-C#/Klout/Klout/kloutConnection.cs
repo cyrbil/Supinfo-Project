@@ -42,11 +42,9 @@ namespace Klout
                 String json = reader.ReadToEnd();
                 user = Json.Deserialize<Person>(json);
 
-                try
-                { // see if error value is set and throw error
+                if (user.users == null) // see if error value is set and throw error
                     throw new Exception("Api return error:\n" + user.body.error);
-                }
-                catch (Exception) { } // no errors ? GOOOOD ! Do nothing !!
+                
 
 
                 // get user topic
@@ -56,13 +54,10 @@ namespace Klout
                 reader = new StreamReader(streamer);
                 json = reader.ReadToEnd();
                 topic = Json.Deserialize<topic>(json);
-                
-                try
-                { // see if error value is set and throw error
-                    throw new Exception("Api return error:\n" + topic.body.error);
-                }
-                catch (Exception) { } // no errors ? GOOOOD ! Do nothing !!
 
+                if (topic.users == null) // see if error value is set and throw error
+                    throw new Exception("Api return error:\n" + topic.body.error);
+                
                 string text = "Twitter Id: " + user.users.ElementAt(0).twitter_id + "\n" +
                     "Twitter name: " + user.users.ElementAt(0).twitter_screen_name + "\n" +
                     "Score: " + user.users.ElementAt(0).score.kscore + "\n" +

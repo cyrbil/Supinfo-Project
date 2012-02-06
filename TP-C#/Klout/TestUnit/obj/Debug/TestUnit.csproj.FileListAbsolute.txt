@@ -7,3 +7,12 @@ C:\Users\cyrbil\Documents\Visual Studio 2010\Projects\Klout\TestUnit\bin\Debug\K
 C:\Users\cyrbil\Documents\Visual Studio 2010\Projects\Klout\TestUnit\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\cyrbil\Documents\Visual Studio 2010\Projects\Klout\TestUnit\obj\Debug\TestUnit.dll
 C:\Users\cyrbil\Documents\Visual Studio 2010\Projects\Klout\TestUnit\obj\Debug\TestUnit.pdb
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\TestUnit.dll
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\TestUnit.pdb
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\Klout.exe
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\Klout.pdb
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\Klout_Accessor.exe
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\bin\Debug\Klout_Accessor.pdb
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\obj\Debug\TestUnit.dll
+C:\Users\cyrbil\github\Supinfo-Project\TP-C#\Klout\TestUnit\obj\Debug\TestUnit.pdb
