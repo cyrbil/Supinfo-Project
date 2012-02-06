@@ -7,7 +7,7 @@ The analysis is done on data taken from sites such as Twitter and Facebook and m
 You are one of the windows phone team hire by Klout to develop the Windows Phone 7 version
 
 ## License
-All file are under the [CeCILL_V2 license](http://the.echonest.com/)http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt)
+All file are under the [CeCILL_V2 license](http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt)
 
 ## Installation/Usage
 Open solution with Visual Studio.
