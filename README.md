@@ -5,7 +5,7 @@ This project regroup many exercises and personnal work made during Supinfo schol
 See 'Readme' file into folders for details on projects.
 
 ## License
-All file are under the [CeCILL_V2 license](http://the.echonest.com/)http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt)
+All file are under the [CeCILL_V2 license](http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt)
 See link or 'license' file for more details.
 Please notice that if a folder contain an other license file, it's overwrite this one.
 
