@@ -15,4 +15,4 @@ Open solution with Visual Studio.
 
 Cyrbil
 
-![alt text](https://a248.e.akamai.net/assets.github.com/img/d8cd7d3042f15d732c4de604a402231463ba27bb/687474703a2f2f7777772e67726176617461722e636f6d2f6176617461722f36376430346165336466646630363063346132666132646665613962366232322e706e673f733d353030 "Cyrbil")
+![alt text](http://www.gravatar.com/avatar/67d04ae3dfdf060c4a2fa2dfea9b6b22.png?s=500 "Cyrbil")
