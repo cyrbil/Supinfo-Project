@@ -17,7 +17,7 @@ Except when I'm to bored to include all librairies, projects are including libra
 ## Last note
 Please notice that it's a 'test' folder and all under projects aren't guarantie to work perfectly.
 Understand that release doesn't means 'all safe to run' but more 'working more or less as in the exercise'.
-This Git is more to help people finding examples code that to provide a real software.
+This Git is more to help people finding examples code than to provide a real software.
 Cyrbil
 
 ![alt text](http://www.gravatar.com/avatar/67d04ae3dfdf060c4a2fa2dfea9b6b22.png?s=500 "Cyrbil")
