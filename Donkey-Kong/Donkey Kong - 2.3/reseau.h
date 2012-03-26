@@ -10,7 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-char* url="http://www.faraweb.fr/dk/dk.php";
+//char* url="http://www.faraweb.fr/dk/dk.php";
+char* url="http://ogizanagi.fr/dk/dk.php"; // new url
 
 size_t writer( char* ptr, size_t size, size_t nmemb, char **userdata);
 int score_send(char* name,char* score);
@@ -29,7 +30,7 @@ int score_get(){
         return 1;
     }
     curl = curl_easy_init();//on initialise Curl pour l'envois
-    if(curl)//si il est bien initialisé...
+    if(curl)//si il est bien initialisï¿½...
     {
         /* First set the URL that is about to receive our POST. This URL can
            just as well be a https:// URL if that is what should receive the
@@ -47,8 +48,8 @@ int score_get(){
             printf("%s",curl_easy_strerror(res));
             MessageBox(0,"Error in request:\nServer Unreachable", "Error", MB_OK );
         }else{
-            //si le score à bien été envoyé
-            //(le résultat contient uploaded ou updated)
+            //si le score ï¿½ bien ï¿½tï¿½ envoyï¿½
+            //(le rï¿½sultat contient uploaded ou updated)
             printf("Score loaded\n");
             fclose(score);
             return 0;
@@ -72,7 +73,7 @@ int score_send(char* name,char* score)
     char *buffer = NULL;
     char *Score_Updated = "checksum valid =>Score Updated";
     char *Score_Uploaded = "checksum valid =>Score Uploaded";
-    //on construit la requête POST
+    //on construit la requï¿½te POST
     strcat(data,name);
     strcat(data,"&score=");
     strcat(data,score);
@@ -81,7 +82,7 @@ int score_send(char* name,char* score)
     //affichage de la requete pour le debug ...
     printf("Sending...\n");
     curl = curl_easy_init();//on initialise Curl pour l'envois
-    if(curl)//si il est bien initialisé...
+    if(curl)//si il est bien initialisï¿½...
     {
         /* First set the URL that is about to receive our POST. This URL can
            just as well be a https:// URL if that is what should receive the
@@ -99,11 +100,11 @@ int score_send(char* name,char* score)
             printf("%s",curl_easy_strerror(res));
             MessageBox(0,"Error in request, could not upload score", "Error in request", MB_OK );
         }else{
-            //si le score à bien été envoyé
-            //(le résultat contient uploaded ou updated)
+            //si le score ï¿½ bien ï¿½tï¿½ envoyï¿½
+            //(le rï¿½sultat contient uploaded ou updated)
             printf("Result:\n##################################\n%s\n##################################\n\n",buffer);
 
-            /*if(strcmp(buffer, Score_Updated)!=0 && strcmp(buffer, Score_Uploaded)!=0)//si l'upload n'a pas marché
+            /*if(strcmp(buffer, Score_Updated)!=0 && strcmp(buffer, Score_Uploaded)!=0)//si l'upload n'a pas marchï¿½
                 MessageBox(0,buffer, "score error", MB_OK );//on affiche une popup d'erreur.
             */
             return 0;
@@ -147,12 +148,12 @@ char* encode(char* a,char* b){
         tmp=rand()%26+97;
         retour[i]=tmp;
     }
-    //on créé le checksum
+    //on crï¿½ï¿½ le checksum
     for(i=0;i<strlen(a);i++){//pour chaque chars du plus grand
         tmp=((int) ((int) a[i]+7)^((int) b[i%strlen(b)]-7))%26+97;//on fait un xor avec quelques chiffres speciaux...
         retour[i%20]=tmp;//on insere dans retour
     }
-    retour[20]='\0';//on rajoute le caractère de fin de chaine
+    retour[20]='\0';//on rajoute le caractï¿½re de fin de chaine
     return retour;
 }
 
@@ -164,7 +165,7 @@ void get_and_display_scores(SDL_Surface *ecran, Menustruct *GestionMenus)
     SDL_Color couleurNoire{0,0,0};
 
     char name[40];//les nom seront inscrit ici
-    unsigned int value;//les scores là
+    unsigned int value;//les scores lï¿½
     char score_char[11];
     score_get();
     if((score = fopen( "score.txt", "r"))==NULL){//on ouvre le fichier des scores
@@ -177,7 +178,7 @@ void get_and_display_scores(SDL_Surface *ecran, Menustruct *GestionMenus)
     while(!feof(score)){
         fscanf(score,"%s %u\n", name, &value);
         sprintf(score_char, "%d", value);//converion int to char
-        SDL_Surface *Score_surf= TTF_RenderText_Blended(police, score_char, couleurNoire);//on créer la structure pour le score
+        SDL_Surface *Score_surf= TTF_RenderText_Blended(police, score_char, couleurNoire);//on crï¿½er la structure pour le score
         SDL_Surface *Name= TTF_RenderText_Blended(police, name, couleurNoire);//idem pour le nom
         SDL_Rect positionName{413,231+numb*26.7};
         SDL_Rect positionScore{760,231+numb*26.7};
