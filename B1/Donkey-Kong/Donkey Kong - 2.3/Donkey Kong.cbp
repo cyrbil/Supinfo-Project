@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Donkey Kong" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Donkey Kong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin\Release\Donkey Kong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="libs\SDL-1.2.14\include\SDL" />
+			<Add directory="libs\curl-7.21.6\include" />
+			<Add directory="libs\SDL_image-1.2.10\include" />
+			<Add directory="libs\SDL_ttf-2.0.10\include" />
+			<Add directory="libs\fmod\include" />
+			<Add directory="libs\curl-7.21.3\include\curl" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="libs\SDL-1.2.14\lib\libSDLmain.a" />
+			<Add library="libs\SDL-1.2.14\lib\libSDL.dll.a" />
+			<Add library="libs\SDL_image-1.2.10\lib\SDL_image.lib" />
+			<Add library="libs\SDL_ttf-2.0.10\lib\SDL_ttf.lib" />
+			<Add library="libs\fmod\lib\libfmodex.a" />
+			<Add library="libs\curl-7.21.3\lib\libcrypto.a" />
+			<Add library="libs\curl-7.21.3\lib\libcurl.a" />
+			<Add library="libs\curl-7.21.3\lib\libcurldll.a" />
+			<Add library="libs\curl-7.21.3\lib\libeay32.a" />
+			<Add library="libs\curl-7.21.3\lib\libidn.a" />
+			<Add library="libs\curl-7.21.3\lib\libidn.dll.a" />
+			<Add library="libs\curl-7.21.3\lib\librtmp.a" />
+			<Add library="libs\curl-7.21.3\lib\libssh2.a" />
+			<Add library="libs\curl-7.21.3\lib\libssh2dll.a" />
+			<Add library="libs\curl-7.21.3\lib\libssl.a" />
+			<Add library="libs\curl-7.21.3\lib\libssl32.a" />
+			<Add library="libs\curl-7.21.3\lib\libz.a" />
+			<Add library="libs\curl-7.21.3\lib\libzdll.a" />
+			<Add directory="libs\curl-7.21.6\lib" />
+			<Add directory="libs\SDL-1.2.14\lib" />
+			<Add directory="libs\SDL_image-1.2.10\lib" />
+			<Add directory="libs\SDL_ttf-2.0.10\lib" />
+			<Add directory="libs\fmod\lib" />
+			<Add directory="libs\curl-7.21.3\lib" />
+		</Linker>
+		<Unit filename="affichage.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="affichage.h" />
+		<Unit filename="constantes.h" />
+		<Unit filename="elements.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="elements.h" />
+		<Unit filename="freeMemory.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="freeMemory.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="moteur.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="moteur.h" />
+		<Unit filename="personnage.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="personnage.h" />
+		<Unit filename="reseau.h" />
+		<Unit filename="sons.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="sons.h" />
+		<Unit filename="structures.c">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="structures.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

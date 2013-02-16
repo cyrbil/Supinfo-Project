@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule>
+        <name>Default url rewrite for check-status</name>
+        <from>/test/status/</from>
+        <to type="redirect">%{context-path}/rewrite-status</to>
+    </rule>
+
+    <outbound-rule>
+        <from>/rewrite-status</from>
+        <to>/test/status/</to>
+    </outbound-rule>
+    
+    
+    
+    <rule>
+        <name>Index</name>
+        <from>^/(dashboard)?/?$</from>
+        <to type="forward">/auth/dashboard</to>
+    </rule>    
+    
+    <rule>
+        <name>Logout</name>
+        <from>^/logout/?$</from>
+        <to type="forward">/auth/logout</to>
+    </rule> 
+    
+    <rule>
+        <name>Link Create</name>
+        <from>^/link/create/?$</from>
+        <to type="forward">/auth/link/create</to>
+    </rule>
+    
+    <rule>
+        <name>Link Management</name>
+        <from>^/link/(\w{1,12})/?(enable|disable|remove)?/?$</from>
+        <to type="forward">/auth/linkManagement?id=$1&amp;action=$2</to>
+    </rule>
+    
+    <rule>
+        <name>Link Management</name>
+        <from>^/mailconfirm/(\w{32})([0-9]+)/?$</from>
+        <to type="forward">/servlets/mailconfirm?id=$2&amp;hash=$1</to>
+    </rule>
+    
+    <rule>
+        <name>login/register</name>
+        <from>^/(login|register)/?$</from>
+        <to type="forward">/servlets/$1</to>
+    </rule>
+    
+    <!-- MUST BE DELETED AFTER INSTALL COMPLETE ! -->
+     <rule>
+        <name>login/register</name>
+        <from>^/install/?(.*)$</from>
+        <to type="forward">/servlets/install$1</to>
+    </rule>
+    <!-- ######################################## -->
+    
+    <rule>
+        <name>Shorted url redirection</name>
+        <from>^/(\w{1,12})/?$</from>
+        <to type="forward">/servlets/linkRedirection?id=$1</to>
+    </rule>
+    
+</urlrewrite>

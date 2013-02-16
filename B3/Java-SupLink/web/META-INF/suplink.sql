@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS `suplink`
+CREATE DATABASE `suplink` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+CREATE TABLE `suplink`.`users` (`id` int(11) NOT NULL AUTO_INCREMENT, `email` varchar(250) COLLATE utf8_bin NOT NULL, `password` char(32) COLLATE utf8_bin NOT NULL, `activated` tinyint(1) NOT NULL DEFAULT '0', PRIMARY KEY (`id`), UNIQUE KEY `UNIQUE_MAIL` (`email`)) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=0 ;
+CREATE TABLE `suplink`.`links` (`id` varchar(12) COLLATE utf8_bin NOT NULL DEFAULT '', `name` text COLLATE utf8_bin NOT NULL, `url` text COLLATE utf8_bin NOT NULL, `creation_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, `enabled` tinyint(1) NOT NULL DEFAULT '1', `user_id` int(11) NOT NULL, PRIMARY KEY (`id`), KEY `user_id` (`user_id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+CREATE TABLE `suplink`.`redirections` (`id` int(11) NOT NULL AUTO_INCREMENT, `creation_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, `referrer` text COLLATE utf8_bin, `country` char(3) COLLATE utf8_bin NOT NULL, `link_id` varchar(12) COLLATE utf8_bin NOT NULL, PRIMARY KEY (`id`), KEY `link_id` (`link_id`)) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=0 ;
+CREATE TRIGGER `suplink`.`default ID` BEFORE INSERT ON `suplink`.`links` FOR EACH ROW BEGIN IF LENGTH(NEW.id) < 3 THEN SET NEW.id = LEFT(MD5(UUID()),6); END IF; END;
+ALTER TABLE `suplink`.`links` ADD CONSTRAINT `FK_LINKS_user_id` FOREIGN KEY (`user_id`) REFERENCES `suplink`.`users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `suplink`.`redirections` ADD CONSTRAINT `FK_REDIRECTIONS_link_id` FOREIGN KEY (`link_id`) REFERENCES `suplink`.`links` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;

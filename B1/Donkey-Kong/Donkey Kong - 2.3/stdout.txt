@@ -1,0 +1,54 @@
+Sending...
+Result:
+##################################
+checksum valid =>Score Uploaded
+0
+
+
+##################################
+
+Sending...
+Result:
+##################################
+checksum valid =>Score Updated
+0
+
+
+##################################
+
+Sending...
+Result:
+##################################
+checksum valid =>Score Uploaded
+0
+
+
+##################################
+
+Sending...
+Result:
+##################################
+checksum valid =>Score Uploaded
+0
+
+
+##################################
+
+Sending...
+Result:
+##################################
+checksum valid =>Score Uploaded
+0
+
+
+##################################
+
+Sending...
+Result:
+##################################
+checksum valid =>Score Uploaded
+0
+
+
+##################################
+
