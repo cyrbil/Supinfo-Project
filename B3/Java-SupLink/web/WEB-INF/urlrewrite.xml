@@ -52,7 +52,7 @@
     
     <!-- MUST BE DELETED AFTER INSTALL COMPLETE ! -->
      <rule>
-        <name>login/register</name>
+        <name>Install</name>
         <from>^/install/?(.*)$</from>
         <to type="forward">/servlets/install$1</to>
     </rule>
